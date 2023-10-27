@@ -12,13 +12,13 @@
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <unistd.h>
-#include "./stringfile/string.h"
+#include "string.h"
 #include "linklist.h"
-#include "./memofile/memo.h"
+#include "memo.h"
 #include "shellvar.h"
-#include "./builtinfile/builtin.h"
-#include "./errorfile/error.h"
-#include "./shellhelperfile/shellhelper.h"
+#include "builtin.h"
+#include "error.h"
+#include "shellhelper.h"
 #include "log.h"
 #define SPACE " "
 #define EQUAL "="
